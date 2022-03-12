@@ -8,3 +8,13 @@ C:\Users\pk110\Downloads\Compressed\FundooNote-main\CommonLayer\obj\Debug\netcor
 C:\Users\pk110\Downloads\Compressed\FundooNote-main\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
 C:\Users\pk110\Downloads\Compressed\FundooNote-main\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
 C:\Users\pk110\Downloads\Compressed\FundooNote-main\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.deps.json
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.AssemblyReference.cache
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfoInputs.cache
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfo.cs
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\pk110\Source\Repos\FundooNote\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb

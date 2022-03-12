@@ -5446,11 +5446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\FundooNote\\FundooNote.csproj",
+      "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\FundooNote.csproj",
       "projectName": "FundooNote",
-      "projectPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\FundooNote\\FundooNote.csproj",
+      "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\FundooNote.csproj",
       "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\FundooNote\\obj\\",
+      "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5467,8 +5467,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }

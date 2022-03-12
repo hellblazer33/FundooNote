@@ -40,11 +40,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\CommonLayer.csproj",
+      "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
       "projectName": "CommonLayer",
-      "projectPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\CommonLayer.csproj",
+      "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
       "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\obj\\",
+      "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",

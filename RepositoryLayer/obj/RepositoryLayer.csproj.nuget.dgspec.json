@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\RepositoryLayer\\RepositoryLayer.csproj": {}
+    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\CommonLayer.csproj": {
+    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\CommonLayer.csproj",
+        "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
         "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\obj\\",
+        "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\RepositoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "C:\\Users\\pk110\\Downloads\\Compressed\\FundooNote-main\\CommonLayer\\CommonLayer.csproj"
+              "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj"
               }
             }
           }
