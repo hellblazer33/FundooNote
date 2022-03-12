@@ -1,0 +1,10 @@
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/bin/Release/netcoreapp3.1/CommonLayer.deps.json
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/bin/Release/netcoreapp3.1/CommonLayer.dll
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/bin/Release/netcoreapp3.1/CommonLayer.pdb
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/obj/Release/netcoreapp3.1/CommonLayer.csproj.AssemblyReference.cache
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/obj/Release/netcoreapp3.1/CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/obj/Release/netcoreapp3.1/CommonLayer.AssemblyInfoInputs.cache
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/obj/Release/netcoreapp3.1/CommonLayer.AssemblyInfo.cs
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/obj/Release/netcoreapp3.1/CommonLayer.csproj.CoreCompileInputs.cache
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/obj/Release/netcoreapp3.1/CommonLayer.dll
+/Users/pankajkumar/Projects/FundooNote/CommonLayer/obj/Release/netcoreapp3.1/CommonLayer.pdb

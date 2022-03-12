@@ -1,0 +1,15 @@
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/bin/Release/netcoreapp3.1/BusinessLayer.deps.json
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/bin/Release/netcoreapp3.1/BusinessLayer.dll
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/bin/Release/netcoreapp3.1/BusinessLayer.pdb
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/bin/Release/netcoreapp3.1/CommonLayer.dll
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/bin/Release/netcoreapp3.1/RepositoryLayer.dll
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/bin/Release/netcoreapp3.1/RepositoryLayer.pdb
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/bin/Release/netcoreapp3.1/CommonLayer.pdb
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.csproj.AssemblyReference.cache
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.AssemblyInfoInputs.cache
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.AssemblyInfo.cs
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.csproj.CoreCompileInputs.cache
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.csproj.CopyComplete
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.dll
+/Users/pankajkumar/Projects/FundooNote/BusinessLayer/obj/Release/netcoreapp3.1/BusinessLayer.pdb

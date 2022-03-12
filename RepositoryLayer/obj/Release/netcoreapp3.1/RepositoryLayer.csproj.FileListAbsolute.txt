@@ -1,0 +1,13 @@
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/bin/Release/netcoreapp3.1/RepositoryLayer.deps.json
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/bin/Release/netcoreapp3.1/RepositoryLayer.dll
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/bin/Release/netcoreapp3.1/RepositoryLayer.pdb
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/bin/Release/netcoreapp3.1/CommonLayer.dll
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/bin/Release/netcoreapp3.1/CommonLayer.pdb
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.csproj.AssemblyReference.cache
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.AssemblyInfoInputs.cache
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.AssemblyInfo.cs
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.csproj.CoreCompileInputs.cache
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.csproj.CopyComplete
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.dll
+/Users/pankajkumar/Projects/FundooNote/RepositoryLayer/obj/Release/netcoreapp3.1/RepositoryLayer.pdb
