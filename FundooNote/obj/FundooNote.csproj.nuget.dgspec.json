@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\FundooNote.csproj": {}
+    "C:\\Users\\pk110\\source\\repos\\FundooNote\\FundooNote\\FundooNote.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\pk110\\source\\repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pk110\\source\\repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj"
+              "C:\\Users\\pk110\\source\\repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj": {
+    "C:\\Users\\pk110\\source\\repos\\FundooNote\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pk110\\source\\repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
+        "projectPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\CommonLayer\\CommonLayer.csproj",
         "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\obj\\",
+        "outputPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -122,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\FundooNote.csproj": {
+    "C:\\Users\\pk110\\source\\repos\\FundooNote\\FundooNote\\FundooNote.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\FundooNote.csproj",
+        "projectUniqueName": "C:\\Users\\pk110\\source\\repos\\FundooNote\\FundooNote\\FundooNote.csproj",
         "projectName": "FundooNote",
-        "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\FundooNote.csproj",
+        "projectPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\FundooNote\\FundooNote.csproj",
         "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\FundooNote\\obj\\",
+        "outputPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\FundooNote\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,8 +152,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\pk110\\source\\repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -162,6 +168,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -209,14 +223,14 @@
         }
       }
     },
-    "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "C:\\Users\\pk110\\source\\repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pk110\\source\\repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\pk110\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\RepositoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pk110\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -233,8 +247,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "C:\\Users\\pk110\\Source\\Repos\\FundooNote\\CommonLayer\\CommonLayer.csproj"
+              "C:\\Users\\pk110\\source\\repos\\FundooNote\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\pk110\\source\\repos\\FundooNote\\CommonLayer\\CommonLayer.csproj"
               }
             }
           }

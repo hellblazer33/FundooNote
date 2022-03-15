@@ -13,9 +13,6 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Service\" />
-    <Folder Include="Interface\" />
-    <Folder Include="Entity\" />
     <Folder Include="Context\" />
   </ItemGroup>
   <ItemGroup>

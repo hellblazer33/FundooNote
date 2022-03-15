@@ -29,7 +29,7 @@ namespace BusinessLayer.Service
             }
         }
 
-        public string Login(UserLogin userLogin)
+        public string login(UserLogin userLogin)
         {
             try
             {
@@ -53,9 +53,21 @@ namespace BusinessLayer.Service
             }
         }
 
-        public string login(UserLogin userLogin)
+        public bool ResetPassword(string email, string password, string confirmpassword)
         {
-            throw new NotImplementedException();
+            try
+            {
+
+                return userRL.ResetPassword(email, password, confirmpassword);
+
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
+
     }
 }
