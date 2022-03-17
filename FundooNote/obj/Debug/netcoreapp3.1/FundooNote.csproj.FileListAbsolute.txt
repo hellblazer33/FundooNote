@@ -121,3 +121,8 @@ C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\System
 C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+C:\Users\pk110\source\repos\FundooNote\FundooNote\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
