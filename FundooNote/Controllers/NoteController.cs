@@ -24,10 +24,14 @@ namespace FundooProject.Controllers
     {
 
         private readonly INoteBL noteBL;
+        private readonly IMemoryCache memoryCache;
+        private readonly IDistributedCache distributedCache;
         //Constructor
-        public NotesController(INoteBL noteBL)
+        public NotesController(INoteBL noteBL, IMemoryCache memoryCache, IDistributedCache distributedCache)
         {
             this.noteBL = noteBL;
+            this.memoryCache = memoryCache;
+            this.distributedCache = distributedCache;
         }
 
         private long GetTokenId()
@@ -104,6 +108,32 @@ namespace FundooProject.Controllers
             {
                 return this.BadRequest(new { success = false, Message = e.Message });
             }
+        }
+        [Authorize]
+        [HttpGet("redisNotes")]
+        public async Task<IActionResult> GetAllNotesUsingRedisCache()
+        {
+            var cacheKey = "NoteList";
+            string serializedNoteList;
+            var NoteList = new List<NoteEntity>();
+            var redisNoteList = await distributedCache.GetAsync(cacheKey);
+            if (redisNoteList != null)
+            {
+                serializedNoteList = Encoding.UTF8.GetString(redisNoteList);
+                NoteList = JsonConvert.DeserializeObject<List<NoteEntity>>(serializedNoteList);
+            }
+            else
+            {
+                long userId = Convert.ToInt32(User.Claims.FirstOrDefault(e => e.Type == "Id").Value);
+                NoteList = (List<NoteEntity>)this.noteBL.RetrieveAllNotes(userId);
+                serializedNoteList = JsonConvert.SerializeObject(NoteList);
+                redisNoteList = Encoding.UTF8.GetBytes(serializedNoteList);
+                var options = new DistributedCacheEntryOptions()
+                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(10))
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(2));
+                await distributedCache.SetAsync(cacheKey, redisNoteList, options);
+            }
+            return Ok(NoteList);
         }
         //IsArchieve
         [Authorize]

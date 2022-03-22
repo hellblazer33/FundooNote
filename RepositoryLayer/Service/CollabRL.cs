@@ -68,14 +68,15 @@ namespace RepositoryLayer.Service
                 throw;
             }
         }
-        public List<CollabEntity> GetByNoteId(long noteId, long userId)
+        public List<CollabEntity> GetAllCollab()
         {
             try
             {
-                var data = this.fundooContext.Collab.Where(c => c.NotesId == noteId && c.Id == userId).ToList();
-                if (data != null)
+                // Fetch All the details from Collab Table
+                var collabs = this.fundooContext.Collab.ToList();
+                if (collabs != null)
                 {
-                    return data;
+                    return collabs;
                 }
                 else
                 {
@@ -86,6 +87,11 @@ namespace RepositoryLayer.Service
             {
                 throw;
             }
+        }
+
+        public List<CollabEntity> GetByNoteId(long noteId, long userId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

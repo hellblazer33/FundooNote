@@ -28,18 +28,7 @@ namespace BusinessLayer.Service
             }
         }
 
-        public List<CollabEntity> GetByNoteId(long noteId, long userId)
-        {
-            try
-            {
-                return this.collabRL.GetByNoteId(noteId, userId);
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-        }
+   
 
         public CollabEntity RemoveCollab(long userId, long collabId)
         {
@@ -52,6 +41,24 @@ namespace BusinessLayer.Service
 
                 throw;
             }
+        }
+
+        public List<CollabEntity> GetAllCollab()
+        {
+            try
+            {
+                return this.collabRL.GetAllCollab();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public List<CollabEntity> GetByNoteId(long noteId, long userId)
+        {
+            throw new NotImplementedException();
         }
     }
 }
