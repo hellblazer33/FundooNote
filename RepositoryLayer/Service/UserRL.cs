@@ -33,7 +33,7 @@ namespace RepositoryLayer.Service
                 userEntity.FirstName = User.FirstName;
                 userEntity.LastName = User.LastName;
                 userEntity.Email = User.Email;
-                userEntity.Password = User.Password;
+                userEntity.Password = this.EncryptPassword(User.Password);
                 fundooContext.Add(userEntity);
                 int result = fundooContext.SaveChanges();
                 if (result > 0)
@@ -48,22 +48,71 @@ namespace RepositoryLayer.Service
                 throw;
             }
         }
+
+        /// <summary>
+        /// Method for EncryptPassword
+        /// </summary>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public string EncryptPassword(string password)
+        {
+            try
+            {
+                byte[] encode = new byte[password.Length];
+                encode = Encoding.UTF8.GetBytes(password);
+                string encryptPass = Convert.ToBase64String(encode);
+                return encryptPass;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Method for DecryptPassword
+        /// </summary>
+        /// <param name="encryptpwd"></param>
+        /// <returns></returns>
+        public string DecryptPassword(string encryptpwd)
+        {
+            try
+            {
+                UTF8Encoding encoder = new UTF8Encoding();
+                Decoder utf8Decode = encoder.GetDecoder();
+                byte[] toDecodeByte = Convert.FromBase64String(encryptpwd);
+                int charCount = utf8Decode.GetCharCount(toDecodeByte, 0, toDecodeByte.Length);
+                char[] decodedChar = new char[charCount];
+                utf8Decode.GetChars(toDecodeByte, 0, toDecodeByte.Length, decodedChar, 0);
+                string PassDecrypt = new string(decodedChar);
+                return PassDecrypt;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
         public string login(UserLogin userLogin)
         {
             try
             {
-                var user = fundooContext.User.Where(x => x.Email == userLogin.Email && x.Password==userLogin.Password).FirstOrDefault();
-                if (user != null)
+                // if Email and password is empty return null. 
+                if (string.IsNullOrEmpty(userLogin.Email) || string.IsNullOrEmpty(userLogin.Password))
                 {
-                    string token = GenerateSecurityToken(user.Email, user.Id);
+                    return null;
+                }
+                var result = fundooContext.User.Where(x => x.Email == userLogin.Email).FirstOrDefault();
+                string dcryptPass = this.DecryptPassword(result.Password);
+                if (result != null && dcryptPass == userLogin.Password)
+                {
+                    string token = GenerateSecurityToken(result.Email, result.Id);
                     return token;
                 }
-                return null;
-               
+                else
+                    return null;
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
