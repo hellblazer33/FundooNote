@@ -109,6 +109,7 @@ namespace FundooProject.Controllers
                 return this.BadRequest(new { success = false, Message = e.Message });
             }
         }
+        //redis
         [Authorize]
         [HttpGet("redisNotes")]
         public async Task<IActionResult> GetAllNotesUsingRedisCache()

@@ -118,7 +118,7 @@ namespace FundooNotes.Controllers
                 throw;
             }
         }
-
+        //redis
         [Authorize]
         [HttpGet("redisLabel")]
         public async Task<IActionResult> GetAllLabelsUsingRedisCache()
